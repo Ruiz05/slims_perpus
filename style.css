@@ -1,0 +1,85 @@
+.contact-list{
+list-style: none;
+padding-left: 0;
+font-size: 12px;
+}
+.judul_footer{
+    padding-bottom: auto;
+    padding-top: 100px;
+}
+a i{
+    color: white;
+}
+#jurnal{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: large;
+    font-weight: bold !important;
+    text-align: center;
+}
+#logo-footer{
+    padding-top: 100px;
+}
+.botton{
+    text-align: right;
+    
+}
+#text-bottom{
+    color: red;
+    font-weight: bold;
+}
+#bawah{
+    color: white;
+    text-decoration: none
+}
+.dropdown:hover >  .dropdown-menu , .dropend:hover > .dropdown-menu{
+    display: block;
+}
+
+.nav-item:hover{
+    color:#FFD700; 
+    text-decoration:none}
+
+.nav:hover{color:#FFD700; text-decoration:none}
+.nav{display: block; margin:auto; text-align:center; color:white; text-decoration:none}
+         
+b:hover{
+    color:black; 
+}
+b{
+    display: block;
+    text-align:left;
+    color:white;}
+
+          
+.carousel-item{
+    height: 670px }
+.carousel-item img{
+    margin-top: -200px;
+    height: 1024px
+}
+.carousel-item .display{
+    margin-top: -440px
+}
+
+        
+.card {
+    justify-content:stretch;
+    width: 20rem ;
+    margin-top:-150px;
+    margin-bottom:200px;
+    margin-left:50px;
+    margin-right:50px;
+    position:center;
+    box-align:center ;
+}
+
+.card:hover {
+    background-color:#313a5b;
+    color:#ffff
+}
+.card-header:hover{
+    color:grey
+}
+         
+  
