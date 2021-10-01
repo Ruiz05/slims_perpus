@@ -31,7 +31,7 @@
   <div class="container">
   <body>  
    <div class="container">
-    <h1><img src="template/bootstrap4/img/heder.png" style="width:30%; height:30%"></h1>
+    <h1><img src="template/slims_perpus/gambar/heder.png" style="width:30%; height:30%"></h1>
     <!--<form class="d-flex justify-content-end">
         <input class="form-control me-2 justify-content-end" type="search" placeholder="Search" aria-label="Search" style="width:30%">
         <button class="btn btn-outline-success" type="submit">Search</button>
@@ -152,13 +152,13 @@
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="template/bootstrap4/img/4.jpg" class="d-block w-100" alt="...">
+      <img src="template/slims_perpus/gambar/4.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="template/bootstrap4/img/1.jpg" class="d-block w-100" alt="...">
+      <img src="template/slims_perpus/gambar/1.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="template/bootstrap4/img/3.jpg" class="d-block w-100" alt="...">
+      <img src="template/slims_perpus/gambar/3.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
