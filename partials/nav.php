@@ -1,13 +1,13 @@
-  <nav class="navbar-expand-lg " style="background-color: #064e7a">
+<nav class="navbar-expand-lg " style="background-color: #064e7a">
   <div class="container">
    
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="hover" aria-current="page" href="index.php" style="padding-right:5px">Dummy 1</a>
+          <a class="hover" aria-current="page" href="index.php" style="padding-right:5px; text-decoration:none; color:white">Dummy 1</a>
         </li>
         <li class="nav-item">
-          <a class="hover" href="index.php?p=news" style="padding-left:5px; padding-right:5px">Dummy 2</a>
+          <a class="hover" href="index.php?p=news" style="padding-left:5px; padding-right:5px; text-decoration:none; color:white">Dummy 2</a>
         </li>
        
        
@@ -53,7 +53,7 @@
   <div class="container">
   <nav class="navbar navbar-expand-lg navbar-dark dropdown-menu animate-menu slideIn-menu" aria-labelledby="navbarDropdown" style="background-color: #064e7a">
   <div class="container-fluid">
-    <a class="navbar-brand " >Menu</a>
+    <a class="navbar-brand " ></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -149,16 +149,18 @@
   </div>
 </nav>
 
+<!-- Banner -->
+
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="template/slims_perpus/gambar/4.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="template/slims_perpus/gambar/1.jpg" class="d-block w-100" alt="...">
+      <img src="template/slims_perpus/gambar/2.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="template/slims_perpus/gambar/3.jpg" class="d-block w-100" alt="...">
+      <img src="template/slims_perpus/gambar/1.jpg" class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -172,7 +174,6 @@
 </div>
 
 
-
 <!-- 3 Kotak Hiasan -->
 <div class="container">
   <div class="row justify-content-center">
@@ -183,8 +184,8 @@
     <div class="card-body">
       <h5 class="card-title">Special title treatment</h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <i class="fas fa-database h1"></i><br>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <i class="fas fa-database h1"></i><br><br>
+      <a class="button" href="#">GO</a>
     </div>
   </div>
 
@@ -195,8 +196,8 @@
     <div class="card-body">
       <h5 class="card-title">Special title treatment</h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <i class="fas fa-book-open h1"></i><br>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <i class="fas fa-book-open h1"></i><br><br>
+      <div><a class="button" href="#">GO</a></div>
     </div>
   </div>
 
@@ -207,8 +208,8 @@
     <div class="card-body">
       <h5 class="card-title">Special title treatment</h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <i class="fas fa-search h1"></i><br>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <i class="fas fa-search h1"></i><br><br>
+      <div><a class="button" href="#">GO</a></div>
     </div>
   </div>
 
@@ -216,4 +217,3 @@
   </div>
   </div>
 </div>
-

@@ -81,5 +81,18 @@ b{
 .card-header:hover{
     color:grey
 }
+
+.button{
+    text-size-adjust: 90px;
+    border-radius: 10px;
+    text-decoration:none;
+    color: black;
+    padding: 10px 40px;
+    background-color: white;
+}
+.button:hover{
+    color: black;
+    background-color: #FFD700;
+}
          
   
