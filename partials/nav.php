@@ -179,36 +179,36 @@
   <div class="row justify-content-center">
   <div class="card text-center">
     <div class="card-header h3">
-      Repository
+       <a class= "card_menu" href="#">Repository</a>
     </div>
     <div class="card-body">
       <h5 class="card-title">Special title treatment</h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <i class="fas fa-database h1"></i><br><br>
+      <i class="bi-laptop h1"></i><br><br>
       <a class="button" href="#">GO</a>
     </div>
   </div>
 
   <div class="card text-center">
     <div class="card-header h3">
-      Featured
+    <a class= "card_menu" href="#">Digital Library</a>
     </div>
     <div class="card-body">
       <h5 class="card-title">Special title treatment</h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <i class="fas fa-book-open h1"></i><br><br>
+      <i class="bi-book h1"></i><br><br>
       <div><a class="button" href="#">GO</a></div>
     </div>
   </div>
 
   <div class="card text-center">
     <div class="card-header h3">
-      Featured
+    <a class= "card_menu" href="#">Opac</a>
     </div>
     <div class="card-body">
       <h5 class="card-title">Special title treatment</h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <i class="fas fa-search h1"></i><br><br>
+      <i class="bi-search h1"></i><br><br>
       <div><a class="button" href="#">GO</a></div>
     </div>
   </div>

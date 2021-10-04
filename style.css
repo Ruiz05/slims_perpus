@@ -38,7 +38,9 @@ a i{
 
 .nav-item:hover{
     color:#FFD700; 
-    text-decoration:none}
+    text-decoration:none
+
+    }
 
 .nav:hover{color:#FFD700; text-decoration:none}
 .nav{display: block; margin:auto; text-align:center; color:white; text-decoration:none}
@@ -79,7 +81,16 @@ b{
     color:#ffff
 }
 .card-header:hover{
-    color:grey
+    color:black;
+}
+
+.card_menu{
+    color:#FFA500;
+    text-decoration: none;
+}
+.card_menu:hover{
+    color:white;
+    text-decoration: none;
 }
 
 .button{
@@ -88,11 +99,13 @@ b{
     text-decoration:none;
     color: black;
     padding: 10px 40px;
-    background-color: white;
+    background-color: 	#FFA500;
 }
 .button:hover{
     color: black;
-    background-color: #FFD700;
+    background-color: #FF4500;
 }
-         
-  
+*{
+font-family: "Cambria"; 
+font-size: 100;
+}
