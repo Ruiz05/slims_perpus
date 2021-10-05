@@ -13,7 +13,7 @@ if(  !( isset($_GET['search']) || isset($_GET['title']) || isset($_GET['keywords
                             <div class="content-date text-grey-dark"><i class="far fa-clock mr-2"></i><?php echo $row['last_update']; ?></div>
                             <h4 class="content-title mb-4"><?php echo substr($row['content_title'],0,12); ?></h4>
                             <p class="content-summary mb-2"><?php echo substr($row['content_desc'],0,500); ?></p>
-                            <div class="botton"><a class="btn" id="text-bottom"href="<?php echo $row['content_path'] ?>">Read more</a></div>
+                            <div class="botton"><a class="btn" id="text-bottom"href="index.php?p=<?php echo $row['content_path'] ?>">Read more</a></div>
                             <?php endwhile;?>
                           </div>
                     </div>
