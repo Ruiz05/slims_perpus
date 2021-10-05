@@ -38,7 +38,7 @@
       <a href="#"><i class="bi-facebook"></i></a>
       <a href="#"><i class="bi-twitter"></i></a>
       <a href="#"><i class="bi-instagram"></i></a>
-      <a href="#"><i class="bi-youtube"></i></a>
+      <a href="https://www.youtube.com/channel/UCuMdgG31inHlwGCAxeaICOg" target="_blank"><i class="bi-youtube"></i></a>
     </div>
   </div>
   <div class="col-sm judul_footer text-uppercase">
