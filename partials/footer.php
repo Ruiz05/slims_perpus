@@ -2,7 +2,7 @@
 <div class="container-fluid text-white w-1 p-4" style="background-color: #042351;">
   <div class="row">
   <div id="logo-footer" class="col-auto justify-content-center" style="padding-left: 50px; padding-right: 50px;">
-    <img src="template/slims_perpus/gambar/LOGO_FOOTER.png" width="250px;" leght="100px;" style="float:middle">
+    <img src="template/slims_perpus/gambar/LOGO_FOOTER.png" width="250px;" leght="10px;" style="float:middle">
   </div>
   <div class="col-sm judul_footer text-uppercase">
     kontak

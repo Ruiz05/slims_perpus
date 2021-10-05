@@ -2,18 +2,29 @@
   <div class="container">
    
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-1 mb-lg-0">
         <li class="nav-item">
-          <a class="hover" aria-current="page" href="index.php" style="padding-right:5px; text-decoration:none; color:white">Dummy 1</a>
+          <a class="bi-envelope hover" aria-current="page" href="index.php" style="padding-right:10px; text-decoration:none; color:white"> perpustakaan@umkt.ac.id</a>
         </li>
         <li class="nav-item">
-          <a class="hover" href="index.php?p=news" style="padding-left:5px; padding-right:5px; text-decoration:none; color:white">Dummy 2</a>
+          <a class="bi-whatsapp hover" href="index.php?p=news" style="padding-left:10px; text-decoration:none; color:white"> 0822 531 79397</a>
         </li>
-       
-       
+
       </ul>
+      <div class="col-lg-3 col-md-3 col-sm-12">
+				<div class="s-menu-info">
+					<form class="language" name="langSelect" action="index.php" method="get">
+						<label class="language-info" for="select_lang"><?php echo __('Select Language'); ?></label>
+						<span class="custom-dropdown custom-dropdown--white custom-dropdown--small">
+							<select name="select_lang" id="select_lang" title="Change language of this site" onchange="document.langSelect.submit();" class="custom-dropdown__select">
+								<?php echo $language_select; ?>
+							</select>
+						</span>
+					</form>
+				</div>
+			</div>
       </div>
-    </div>
+    
   </div>
   
   <!-- menu atas -->
@@ -31,7 +42,7 @@
   <div class="container">
   <body>  
    <div class="container">
-    <h1><img src="template/slims_perpus/gambar/heder.png" style="width:30%; height:30%"></h1>
+    <h1><img class="gambarheader" src="template/slims_perpus/gambar/heder.png"></h1>
     <!--<form class="d-flex justify-content-end">
         <input class="form-control me-2 justify-content-end" type="search" placeholder="Search" aria-label="Search" style="width:30%">
         <button class="btn btn-outline-success" type="submit">Search</button>
@@ -58,37 +69,37 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-5 mb-lg-0">
         <li class="nav-item">
-          <a class="border-end nav" aria-current="page" href="index.php" style="padding-right: 10px; padding-left: 10px;">Home</a>
+          <a class=" nav" aria-current="page" href="index.php" ><?php echo "HOME" ?></a>
         </li>
         <li class="nav-item">
-          <a class="border-end nav" href="index.php?p=news" style="padding-right: 10px; padding-left: 10px;">Library News</a>
+          <a class=" nav" href="index.php?p=news" ><?php echo " LIBRARY NEWS" ?></a>
         </li>
-        <li class="nav-item dropdown border-end">
-          <a class="dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 10px; padding-left: 10px;">
-            Area Anggota
+        <li class="nav-item dropdown ">
+          <a class=" dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "AREA ANGGOTA" ?>
+            
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#064e7a"  >
-            <li><a  class="dropdown-item " href="index.php?p=member" style="color:white; ">Login Member</a></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"   >
+            <li><a  class="dropdown-item " href="index.php?p=member" ><?php echo "Login Member" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li ><a class="dropdown-item"  href="index.php?p=daftar_online" style="color:white; text-decoration:none;">Registrasi Member</a></li>
+            <li ><a class="dropdown-item"  href="index.php?p=daftar_online"><?php echo "Registrasi Member" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="index.php?p=survei" style="color:white; text-decoration:none;">Survei</a></li>
+            <li><a class="dropdown-item" href="index.php?p=survei" ><?php echo "Survei" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="index.php?p=usul_buku" style="color:white; text-decoration:none;">Usul Buku</a></li>
+            <li><a class="dropdown-item" href="index.php?p=usul_buku" ><?php echo "Usul Buku" ?></a></li>
             <li><hr class="dropdown-divider"></li>
 
                   <div class="dropdown-item dropend"  >
         <!--<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
           Dropright
         </button>-->
-        <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-            kesamping
+        <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "kesamping" ?>
+            
         </b>
-        <ul class="dropdown-menu"  style="background-color:#064e7a" >
+        <ul class="dropdown-menu"   >
           <!-- Dropdown menu links -->
-          <li><a class="dropdown-item"  href="#"  style="color:white ">Usul Buku</a></li>
+          <li><a class="dropdown-item"  href="#"  ><?php echo "Usul Buku" ?></a></li>
         </ul>
       </div>
 
@@ -96,47 +107,47 @@
           <!-- Sub Menu (Menu yang Punya Anakan) -->
           </ul>
         </li>
-        <li class="nav-item dropdown border-end ">
-          <a class="dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 10px; padding-left: 10px;">
-            Katalog
+        <li class="nav-item dropdown  ">
+          <a class=" dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "KATALOG" ?>
+            
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#064e7a">
-            <li><a id="fc" class="dropdown-item" href="https://paperless.umkt.ac.id/" style="color:white; text-decoration:none;">Paperless</a></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
+            <li><a id="fc" class="dropdown-item" href="https://paperless.umkt.ac.id/" ><?php echo "Paperless" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="https://dspace.umkt.ac.id/" style="color:white; text-decoration:none;">Repository</a></li>
+            <li><a class="dropdown-item" href="https://dspace.umkt.ac.id/" ><?php echo "Repository" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="http://b.id/mobi/" style="color:white; text-decoration:none;">E-Book</a></li>
+            <li><a class="dropdown-item" href="http://b.id/mobi/"><?php echo "E-Book" ?></a></li>
             <li><hr class="dropdown-divider"></li>
 
             <div class="dropdown-item dropend">
         <!--<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
           Dropright
         </button>-->
-        <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            kesamping
+        <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><?php echo "kesamping" ?>
+            
         </b>
-        <ul class="dropdown-menu" style="background-color:#064e7a">
+        <ul class="dropdown-menu">
           <!-- Dropdown menu links -->
-          <li><a class="dropdown-item" href="#" style="color:white; text-decoration:none;">Usul Buku</a></li>
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
         </ul>
       </div>
             
           </ul>
         </li>
         <li class="nav-item dropdown ">
-          <a class="dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="padding-right: 10px; padding-left: 10px;">
-          Tentang Kami
+          <a class=" dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "TENTANG KAMI" ?>
+          
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color:#064e7a">
-            <li><a class="dropdown-item" href="index.php?p=librarianr" style="color:white; text-decoration:none;">Librarian</a></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
+            <li><a class="dropdown-item" href="index.php?p=librarianr" ><?php echo "Librarian" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="index.php?p=profil" style="color:white; text-decoration:none;">Profil</a></li>
+            <li><a class="dropdown-item" href="index.php?p=profil"><?php echo "Profil" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="index.php?p=fasilitas" style="color:white; text-decoration:none;">Fasilitas Perpustakaan</a></li>
+            <li><a class="dropdown-item" href="index.php?p=fasilitas"><?php echo "Fasilitas Perpustakaan" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="index.php?p=layanan" style="color:white; text-decoration:none;">Layanan Perpustakaan</a></li>
+            <li><a class="dropdown-item" href="index.php?p=layanan" ><?php echo "Layanan Perpustakaan" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="index.php?p=peta" class="openPopUp" width="600" height="400" style="color:white; text-decoration:none" >Library Location</a></li>
+            <li><a class="dropdown-item" href="index.php?p=peta" class="openPopUp" width="600" height="400"><?php echo "Library Location" ?></a></li>
 
            
             
@@ -177,41 +188,70 @@
 <!-- 3 Kotak Hiasan -->
 <div class="container">
   <div class="row justify-content-center">
+    <div class="col-3">
   <div class="card text-center">
     <div class="card-header h3">
-       <a class= "card_menu" href="#">Repository</a>
+       <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
     </div>
     <div class="card-body">
       <h5 class="card-title">Special title treatment</h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
       <i class="bi-laptop h1"></i><br><br>
-      <a class="button" href="#">GO</a>
+      <a class="button" href="https://dspace.umkt.ac.id/">GO</a>
     </div>
   </div>
+  </div>
 
+  <div class="col-3">
   <div class="card text-center">
     <div class="card-header h3">
-    <a class= "card_menu" href="#">Digital Library</a>
+       <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
     </div>
     <div class="card-body">
       <h5 class="card-title">Special title treatment</h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
       <i class="bi-book h1"></i><br><br>
-      <div><a class="button" href="#">GO</a></div>
+      <a class="button" href="https://dspace.umkt.ac.id/">GO</a>
     </div>
   </div>
+  </div>
 
+  
+  
+  <div class="col-3">
   <div class="card text-center">
     <div class="card-header h3">
-    <a class= "card_menu" href="#">Opac</a>
+       <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
     </div>
     <div class="card-body">
       <h5 class="card-title">Special title treatment</h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
       <i class="bi-search h1"></i><br><br>
-      <div><a class="button" href="#">GO</a></div>
+      <a class="button" href="https://dspace.umkt.ac.id/">GO</a>
     </div>
   </div>
+  </div>
+
+  
+  <div class="col-3">
+  <div class="card text-center">
+    <div class="card-header h3">
+       <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Special title treatment</h5>
+      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <i class="bi-laptop h1"></i><br><br>
+      <a class="button" href="https://dspace.umkt.ac.id/">GO</a>
+    </div>
+  </div>
+  </div>
+
+  
+  
+
+  
+  
 
   
   </div>
