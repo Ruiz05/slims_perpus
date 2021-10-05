@@ -116,18 +116,19 @@ include "partials/nav.php";
     <!-- Homepage
     ============================================= -->
     <main id="content" class="s-main" role="main">
-<div class="container">
+<!-- <div class="container">
 <div class="row" style="padding-bottom: 100%;">
   <div class="col">
 
   </div>
 </div>
-</div>
+</div> -->
     </main>
 <?php endif; ?>
 
 <?php
 // Advance Search
+include "partials/feature.php";
 include "partials/diatas_footer.php";
 
 // Footer
