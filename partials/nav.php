@@ -70,7 +70,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-5 mb-lg-0">
-        <li class="nav-item">
+        <li class="nav-item ">
           <a class=" nav" aria-current="page" href="index.php" ><?php echo "HOME" ?></a>
         </li>
         <li class="nav-item">

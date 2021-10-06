@@ -42,11 +42,7 @@ include "partials/meta.php"; ?>
 	#mobile-nav-toggle{display:none}
 	</style>
 <body itemscope itemtype="http://schema.org/WebPage" id="login-page" style="background:#e4e4e4" >
-<div class="d-none">
-  <?php include "partials/nav.php";?>
-</div>
-  <?php include "partials/bg.php";?>
-  
+
   <!-- Login -->
   <main id="content" class="s-main s-login" role="main" >
     <div class="s-login-content animated pulse">

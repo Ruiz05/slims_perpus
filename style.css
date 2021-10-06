@@ -109,8 +109,8 @@ b{
 .card {
     justify-content:stretch;
     
-    margin-top:-200px;
-   
+    margin-top:-150px;
+    margin-bottom:45%;
     margin-left:10px;
     margin-right:10px;
     position:center;
