@@ -1,10 +1,53 @@
 <?php
-if (!defined('INDEX_AUTH')) {
-  die("can not access this file directly");
-} elseif (INDEX_AUTH != 1) {
-  die("can not access this file directly");
+# @Author: Waris Agung Widodo <user>
+# @Date:   2018-01-21T11:36:53+07:00
+# @Email:  ido.alit@gmail.com
+# @Filename: index_template.inc.php
+# @Last modified by:   user
+# @Last modified time: 2018-01-26T11:37:10+07:00
+
+//$a = get_defined_vars();
+//$a['sysconf'] = null;
+//$a['main_content'] = null;
+//echo '<pre>'; print_r($a); echo '</pre>'; die();
+//echo '<pre>'; print_r($_SESSION); echo '</pre>'; die();
+
+// ----------------------------------------------------------------------------
+// load function library for classic template
+// ----------------------------------------------------------------------------
+include_once 'classic.php';
+include 'partials/meta.php';
+// ----------------------------------------------------------------------------
+// load header
+// ----------------------------------------------------------------------------
+include 'partials/nav.php';
+
+// ----------------------------------------------------------------------------
+// load content by URI
+// ----------------------------------------------------------------------------
+if (isset($_GET['p']) || isset($_GET['search'])) {
+  // --------------------------------------------------------------------------
+  // handle result search
+  if (isset($_GET['search'])) {
+    // ------------------------------------------------------------------------
+    // load partials result search template
+    include 'partials/_result-search.php';
+  } else {
+    // --------------------------------------------------------------------------
+    // handle member page
+    if ($_GET['p'] == 'member') {
+      include 'partials/footer';
+    } else {
+      include 'partials/diatas_footer.php';
+    }
+  }
+} else {
+  // --------------------------------------------------------------------------
+  // not found query string: load home page
+  include 'partials/home.php';
 }
 
+<<<<<<< HEAD
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo substr($sysconf['default_lang'], 0, 2); ?>" xmlns="http://www.w3.org/1999/xhtml"
@@ -231,3 +274,12 @@ s0.parentNode.insertBefore(s1,s0);
 include "partials/footer.php";
 ?>
 </html>
+=======
+// ----------------------------------------------------------------------------
+// load footer
+// ----------------------------------------------------------------------------
+include 'partials/feature.php';
+include 'partials/diatas_footer.php';
+include 'partials/footer.php';
+?>
+>>>>>>> 789943525a7f039ebb120abcd865b7e5900b7207

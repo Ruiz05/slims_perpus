@@ -7,7 +7,7 @@
 
 if (isset($_GET['p']) && $_GET['p'] === 'visitor') {
   include "classic.php";
-  include "parts/header.php";
+  include "partials/nav.php";
   echo $main_content;
   include __DIR__ . "/assets/js/vegas.js.php";
   echo '</body></html>';
