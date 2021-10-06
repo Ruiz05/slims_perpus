@@ -39,6 +39,12 @@ a i{
  
     margin-bottom: -1%
 }
+.gambar_dibawah img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 
 .dropdown:hover > .dropdown-menu , .dropend:hover > .dropdown-menu{
     display: block;

@@ -18,7 +18,9 @@ if (!defined('INDEX_AUTH')) {
 
 <?php
 // Navigation
-include "nav.php";
+include 'nav.php';
+include 'banner.php';
+include 'card.php';
 ?>
 <main id="content" class="s-main" role="main">
 </main>
@@ -31,6 +33,7 @@ include "feature.php";
 </body>
 <?php
 // include "diatas_footer.php";
+include 'diatas_footer.php';
 include "footer.php";
 ?>
 </html>
