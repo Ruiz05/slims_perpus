@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /**
  * Template for Login
@@ -75,3 +76,6 @@ include "partials/meta.php"; ?>
 
 </html>
 
+=======
+<?php echo $main_content; ?>
+>>>>>>> fce846d9f5ae6977c23e1dda5b4828bcb34f1cc6

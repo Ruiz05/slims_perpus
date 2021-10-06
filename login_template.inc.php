@@ -12,5 +12,5 @@ if (isset($_GET['p']) && $_GET['p'] === 'visitor') {
   include __DIR__ . "/assets/js/vegas.js.php";
   echo '</body></html>';
 } else {
-  include "index_template.inc.php";
+  include "partials/nav.php";
 }

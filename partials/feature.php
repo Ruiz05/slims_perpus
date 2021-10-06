@@ -4,6 +4,7 @@ if(  !( isset($_GET['search']) || isset($_GET['title']) || isset($_GET['keywords
 ?>
 <?php if ($result->num_rows > 0):?>
 <Section>
+  <div class="headline">NEWS UPDATE</div>
         <div class="container-fluid" style="background-color: rgba(229, 229, 229, 1.00); opacity: 0.7;">
             <div class="row text-capitalize">
                 <div class="col-8 col-offset-1" style="padding-left: 100px;">
