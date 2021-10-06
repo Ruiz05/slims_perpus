@@ -62,7 +62,7 @@
   </body>
           <!-- Edit Menu Navigation Bar-->
   <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top"  style="background-color: #064e7a">
+  <nav class="navbar navbar-expand-lg navbar-dark " aria-labelledby="navbarDropdown" style="background-color: #064e7a">
   <div class="container-fluid">
     <a class="navbar-brand " ></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
