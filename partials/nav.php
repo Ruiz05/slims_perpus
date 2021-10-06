@@ -1,4 +1,4 @@
-<nav class="navbar-expand-lg " style="background-color: #064e7a">
+<nav class="navbar-expand-lg" style="background-color: #064e7a">
   <div class="container">
    
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -62,7 +62,7 @@
   </body>
           <!-- Edit Menu Navigation Bar-->
   <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-dark dropdown-menu animate-menu slideIn-menu" aria-labelledby="navbarDropdown" style="background-color: #064e7a">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top"  style="background-color: #064e7a">
   <div class="container-fluid">
     <a class="navbar-brand " ></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -160,100 +160,4 @@
   </div>
 </nav>
 
-<!-- Banner -->
 
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="template/slims_perpus/gambar/4.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="template/slims_perpus/gambar/2.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="template/slims_perpus/gambar/1.jpg" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-
-<!-- 3 Kotak Hiasan -->
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-3">
-  <div class="card text-center">
-    <div class="card-header h3">
-       <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <i class="bi-laptop h1"></i><br><br>
-      <a class="button" href="https://dspace.umkt.ac.id/">GO</a>
-    </div>
-  </div>
-  </div>
-
-  <div class="col-3">
-  <div class="card text-center">
-    <div class="card-header h3">
-       <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <i class="bi-book h1"></i><br><br>
-      <a class="button" href="https://dspace.umkt.ac.id/">GO</a>
-    </div>
-  </div>
-  </div>
-
-  
-  
-  <div class="col-3">
-  <div class="card text-center">
-    <div class="card-header h3">
-       <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <i class="bi-search h1"></i><br><br>
-      <a class="button" href="https://dspace.umkt.ac.id/">GO</a>
-    </div>
-  </div>
-  </div>
-
-  
-  <div class="col-3">
-  <div class="card text-center">
-    <div class="card-header h3">
-       <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <i class="bi-laptop h1"></i><br><br>
-      <a class="button" href="https://dspace.umkt.ac.id/">GO</a>
-    </div>
-  </div>
-  </div>
-
-  
-  
-
-  
-  
-
-  
-  </div>
-  </div>
-</div>

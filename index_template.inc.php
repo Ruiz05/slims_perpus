@@ -23,6 +23,8 @@ if (!defined('INDEX_AUTH')) {
 <?php
 // Navigation
 include "partials/nav.php";
+include "partials/banner.php";
+include "partials/card.php";
 
 ?>
 
