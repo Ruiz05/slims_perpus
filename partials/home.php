@@ -18,19 +18,19 @@ if (!defined('INDEX_AUTH')) {
 
 <?php
 // Navigation
-include "partials/nav.php";
+include "nav.php";
 ?>
 <main id="content" class="s-main" role="main">
 </main>
 <?php
 // Advance Search
-include "partials/feature.php";
+include "feature.php";
 ?>
 
 
 </body>
 <?php
-// include "partials/diatas_footer.php";
-include "partials/footer.php";
+// include "diatas_footer.php";
+include "footer.php";
 ?>
 </html>

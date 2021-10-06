@@ -12,17 +12,6 @@
 //echo '<pre>'; print_r($a); echo '</pre>'; die();
 //echo '<pre>'; print_r($_SESSION); echo '</pre>'; die();
 
-// ----------------------------------------------------------------------------
-// load function library for classic template
-// ----------------------------------------------------------------------------
-include_once 'classic.php';
-include 'partials/meta.php';
-// ----------------------------------------------------------------------------
-// load header
-// ----------------------------------------------------------------------------
-include 'partials/nav.php';
-include 'partials/banner.php';
-include 'partials/card.php';
 
 // ----------------------------------------------------------------------------
 // load content by URI
@@ -40,7 +29,7 @@ if (isset($_GET['p']) || isset($_GET['search'])) {
     if ($_GET['p'] == 'member') {
       include 'partials/footer';
     } else {
-      include 'partials/diatas_footer.php';
+      include 'login_template.php';
     }
   }
 } else {
@@ -49,9 +38,21 @@ if (isset($_GET['p']) || isset($_GET['search'])) {
   include 'partials/home.php';
 }
 // ----------------------------------------------------------------------------
-// load footer
+// load function library for classic template
 // ----------------------------------------------------------------------------
-include 'partials/feature.php';
-include 'partials/diatas_footer.php';
-include 'partials/footer.php';
+// include_once 'classic.php';
+include 'partials/meta.php';
+// // ----------------------------------------------------------------------------
+// // load header
+// // ----------------------------------------------------------------------------
+// include 'partials/nav.php';
+// include 'partials/banner.php';
+// include 'partials/card.php';
+
+// // ----------------------------------------------------------------------------
+// // load footer
+// // ----------------------------------------------------------------------------
+// include 'partials/feature.php';
+// include 'partials/diatas_footer.php';
+// include 'partials/footer.php';
 ?>

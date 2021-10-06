@@ -1,5 +1,5 @@
 <!-- 3 Kotak Hiasan -->
-<div  style="background-color: rgba(229, 229, 229, 1.00); ">
+<div  style="background-color: rgba(229, 229, 229, 1.00);">
 <div class="container-fluid py-5" >
     <div class="container"> 
   <div class="row justify-content-center" >
