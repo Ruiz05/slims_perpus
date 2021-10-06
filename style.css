@@ -35,9 +35,8 @@ a i{
 }
 
 .gambarheader{
-    width:30%; height:30%; 
- 
-    margin-bottom: -1%
+    width:350px; height: 125px;
+    margin-bottom: -1%;
 }
 
 .dropdown:hover > .dropdown-menu , .dropend:hover > .dropdown-menu{
