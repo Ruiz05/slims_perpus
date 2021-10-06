@@ -11,7 +11,7 @@
 //$a['main_content'] = null;
 //echo '<pre>'; print_r($a); echo '</pre>'; die();
 //echo '<pre>'; print_r($_SESSION); echo '</pre>'; die();
-
+include 'partials/meta.php';
 
 // ----------------------------------------------------------------------------
 // load content by URI
@@ -41,7 +41,7 @@ if (isset($_GET['p']) || isset($_GET['search'])) {
 // load function library for classic template
 // ----------------------------------------------------------------------------
 // include_once 'classic.php';
-include 'partials/meta.php';
+
 // // ----------------------------------------------------------------------------
 // // load header
 // // ----------------------------------------------------------------------------
