@@ -1,4 +1,3 @@
-
 <nav class="navbar-expand-lg" style="background-color: #064e7a">
   <div class="container">
    
@@ -75,7 +74,7 @@
           <a class=" nav" aria-current="page" href="index.php" ><?php echo "HOME" ?></a>
         </li>
         <li class="nav-item">
-          <a class=" nav" href="index.php?p=news" ><?php echo " LIBRARY NEWS" ?></a>
+          <a class=" nav" href="#news" ><?php echo " LIBRARY NEWS" ?></a>
         </li>
         <li class="nav-item dropdown ">
           <a class=" dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "AREA ANGGOTA" ?>
@@ -154,11 +153,12 @@
             
           </ul>
         </li>
-     
+      <li class="nav-item ">
+          <a class="nav bi-file-lock-fill" aria-current="page" href="index.php?p=login" ><?php echo "LOGIN PUSTAKAWAN" ?></a>
+        </li>
+
       </ul>
       </div>
     </div>
   </div>
 </nav>
-
-

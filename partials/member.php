@@ -30,7 +30,7 @@ include 'nav.php';
 <div class="login">
     <div class="container-fluid">
         <div class="row justify-content-center pig">
-          <div class="col-auto offset-1"><img class="loginpage" src="template/slims_perpus/gambar/logo.png" style="width: 100px; height: auto; padding-top: 50%; padding-bottom: 50%;"></div>
+          <div class="col-auto offset-1 bi-person-circle" style="font-size: 100px"></div>
           <div class="col-6" style="padding-top: 10px;">
           <?php echo $main_content;?></div>
         </div>

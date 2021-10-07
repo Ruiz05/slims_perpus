@@ -51,13 +51,13 @@
   <div class="col-lg-3 col-sm-6">
   <div class="card text-center">
     <div class="card-header h3">
-       <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Bookless" ?></a>
+       <a class= "card_menu" href="http://b.id/mobi/"><?php echo "Bookless" ?></a>
     </div>
     <div class="card-body">
       <h5 class="card-title">Special title treatment</h5>
       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
       <i class="bi-collection h1"></i><br><br>
-      <a class="button" href="https://dspace.umkt.ac.id/">GO</a>
+      <a class="button" href="http://b.id/mobi/">GO</a>
     </div>
   </div>
   </div>
