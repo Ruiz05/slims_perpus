@@ -38,8 +38,10 @@ include 'nav.php';
 </div>
 </main>
 
-
+<?php include "footer.php";?>
 </body>
+<?php else:?>
+    <?php echo $main_content; ?>
 <?php
 //include 'diatas_footer.php';
 include "footer.php";
