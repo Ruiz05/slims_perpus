@@ -16,23 +16,23 @@ if (!defined('INDEX_AUTH')) {
 <body itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
 <?php
-// Navigation
 include 'nav.php';
-include 'banner.php';
-include 'card.php';
 ?>
 <main id="content" class="s-main" role="main">
+<div class="login">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+        <img src="template/slims_perpus/gambar/heder.png" alt="" class="logo_login">
+        <?php echo $main_content;?>
+        </div>
+    </div>
+</div>
 </main>
-<?php
-// Advance Search
-include "feature.php";
-?>
 
 
 </body>
 <?php
-// include "diatas_footer.php";
-include 'diatas_footer.php';
+//include 'diatas_footer.php';
 include "footer.php";
 ?>
 </html>

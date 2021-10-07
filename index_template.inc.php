@@ -27,9 +27,9 @@ if (isset($_GET['p']) || isset($_GET['search'])) {
     // --------------------------------------------------------------------------
     // handle member page
     if ($_GET['p'] == 'member') {
-      include 'partials/footer';
+      include 'partials/member.php';
     } else {
-      include 'login_template.php';
+      include 'partials/login_template.php';
     }
   }
 } else {
