@@ -28,11 +28,19 @@ if (isset($_GET['p']) || isset($_GET['search'])) {
   else {
     // --------------------------------------------------------------------------
     // handle member page
+    if(!($_GET['p'] == 'member') && !($_GET['p'] == 'login')){
+      include 'partials/news_page_home.php';
+    }
     if ($_GET['p'] == 'member') {
       include 'partials/member.php';
-    } else {
+    }
+    if ($_GET['p'] == 'login') {
       include 'partials/login_template.php';
     }
+    // else {
+    //   //include 'partials/news_page.php';
+    //   echo "hello world";
+    // }
   }
 } else {
   // --------------------------------------------------------------------------
