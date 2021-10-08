@@ -1,6 +1,10 @@
 <?php
 if(  !( isset($_GET['search']) || isset($_GET['title']) || isset($_GET['keywords']) || isset($_GET['p']) ) ) :
+<<<<<<< HEAD
     $result = $dbs->query("SELECT content_title,content_desc,content_path,last_update FROM content WHERE is_news = 1 LIMIT 5;");
+=======
+    $result = $dbs->query("SELECT content_title,content_desc,content_path,last_update FROM content WHERE is_news = 1 ORDER BY last_update DESC LIMIT 5;");
+>>>>>>> 485adb7ab3abc6625b43abaa50112d7e28007332
 ?>
 <?php if ($result->num_rows > 0):?>
 <Section>

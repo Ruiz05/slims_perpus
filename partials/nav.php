@@ -4,10 +4,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-1 mb-lg-0">
         <li class="nav-item">
-          <a class="bi-envelope hover" aria-current="page" href="index.php" style="padding-right:10px; text-decoration:none; color:white"> perpustakaan@umkt.ac.id</a>
+          <a class="bi-envelope hover" aria-current="page" style="padding-right:10px; text-decoration:none; color:white"> perpustakaan@umkt.ac.id</a>
         </li>
         <li class="nav-item">
-          <a class="bi-whatsapp hover" href="index.php?p=news" style="padding-left:10px; text-decoration:none; color:white"> 0822 531 79397</a>
+          <a class="bi-whatsapp hover" style="padding-left:10px; text-decoration:none; color:white"> 0822 531 79397</a>
         </li>
 
       </ul>
@@ -71,7 +71,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-5 mb-lg-0">
         <li class="nav-item ">
-          <a class=" nav" aria-current="page" href="index.php" ><?php echo "HOME" ?></a>
+          <a class=" nav" aria-current="page" href="index.php" ><?php echo "BERANDA" ?></a>
         </li>
         <li class="nav-item">
           <a class=" nav" href="#news" ><?php echo " LIBRARY NEWS" ?></a>
@@ -158,6 +158,9 @@
         </li>
 
       </ul>
+
+      
+      
       </div>
     </div>
   </div>

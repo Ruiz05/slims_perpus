@@ -11,9 +11,9 @@ font-size: 12px;
 a i{
     color: white;
 }
-#jurnal{
-    padding-top: 100px;
-    padding-bottom: 100px;
+.jurnal{
+    padding-top: 20px;
+    padding-bottom: 50px;
     font-size: large;
     font-weight: bold !important;
     text-align: center;

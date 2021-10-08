@@ -1,5 +1,5 @@
 <section>
-<div id="jurnal" class="container-fluid bg-dark text-white text-uppercase text-center">
+<div  class="container-fluid bg-dark text-white text-uppercase text-center jurnal">
   <div class="row justify-content-center">
      <i class=" bi bi-jurnal"></i><h1>E - Jurnal</h1>
     <div class="row gambar_dibawah">
