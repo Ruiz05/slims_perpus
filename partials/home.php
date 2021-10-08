@@ -25,7 +25,7 @@ include 'card.php';
 </main>
 <?php
 // Advance Search
-include "kalender.php";
+//include "kalender.php";
 include "feature.php";
 ?>
 
