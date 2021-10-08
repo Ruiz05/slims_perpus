@@ -71,6 +71,6 @@
   </div>  
 </div>
 <div class="container-fluid bg-dark p-1">
-  <div class="row text-white"> <p class="text-center">&copy;<script>document.write(new Date().getFullYear());</script> Universitas Muhammadiyah Kalimantan Timur | Dikembangkan oleh Sistem Informasi Lib.UMKT</p></div>
+  <div class="row text-white"> <p class="text-center">&copy;<script>document.write(new Date().getFullYear());</script> Universitas Muhammadiyah Kalimantan Timur</p></div>
 </div>
   </footer>
