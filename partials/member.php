@@ -1,5 +1,3 @@
-<?php if (!($is_login)) : ?>
-
 <!DOCTYPE html>
 <html lang="<?php echo substr($sysconf['default_lang'], 0, 2); ?>" xmlns="http://www.w3.org/1999/xhtml"
       prefix="og: http://ogp.me/ns#">
@@ -40,11 +38,4 @@ include 'nav.php';
 
 <?php include "footer.php";?>
 </body>
-<?php else:?>
-    <?php echo $main_content; ?>
-<?php
-//include 'diatas_footer.php';
-include "footer.php";
-?>
 </html>
-<?php endif; ?>
