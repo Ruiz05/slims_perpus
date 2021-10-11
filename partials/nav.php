@@ -74,7 +74,7 @@
           <a class=" nav" aria-current="page" href="index.php" ><?php echo "BERANDA" ?></a>
         </li>
         <li class="nav-item">
-          <a class=" nav" href="#news" ><?php echo " LIBRARY NEWS" ?></a>
+          <a class=" nav" href="#news" id="newspage" ><?php echo " LIBRARY NEWS" ?></a>
         </li>
         <li class="nav-item dropdown ">
           <a class=" dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "AREA ANGGOTA" ?>

@@ -24,6 +24,7 @@ if (!defined('INDEX_AUTH')) {
     background-color: rgb(229, 229, 229);
   }
 </style>
+
 </head>
 
 <body itemscope="itemscope" itemtype="http://schema.org/WebPage">
@@ -31,11 +32,16 @@ if (!defined('INDEX_AUTH')) {
 <?php
 include 'nav.php';
 ?>
+<script>
+document.getElementById('newspage').onclick = function() {
+    document.getElementById("newspage").href = "index.php?p=news";
+}
+</script>
 <main id="content" class="s-main" role="main">
 <div class="login">
     <div class="container-fluid">
         <div class="row justify-content-center pig">
-          <div class="col-auto offset-1 bi-person-circle h1"></div>
+          
           <div class="col-6" style="padding-top: 10px;">LOGIN ADMIN
           <!-- <div class="col-auto offset-1"><img class="loginpage" src="template/slims_perpus/gambar/logo.png" style="width: 100px; height: auto; padding-top: 50%; padding-bottom: 50%;"></div>
           --><div class="col-6" style="padding-top: 10px;">

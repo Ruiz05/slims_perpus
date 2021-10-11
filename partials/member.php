@@ -24,6 +24,11 @@
 <?php
 include 'nav.php';
 ?>
+<script>
+document.getElementById('newspage').onclick = function() {
+    document.getElementById("newspage").href = "index.php?p=news";
+}
+</script>
 <main id="content" class="s-main" role="main">
 <div class="login">
     <div class="container-fluid">
