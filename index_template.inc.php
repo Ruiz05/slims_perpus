@@ -13,18 +13,22 @@
 //echo '<pre>'; print_r($_SESSION); echo '</pre>'; die();
 include 'partials/meta.php';
 
+
 // ----------------------------------------------------------------------------
 // load content by URI
 // ----------------------------------------------------------------------------
 if (isset($_GET['p']) || isset($_GET['search'])) {
+  
+  
   // --------------------------------------------------------------------------
   // handle result search
   if (isset($_GET['search'])) {
     // ------------------------------------------------------------------------
     // load partials result search template
-    include 'partials/_result-search.php';
+    include 'partials/search-frontpage.php';
+  
   } 
-
+  
   else {
     // --------------------------------------------------------------------------
     // handle member page
@@ -51,7 +55,7 @@ if (isset($_GET['p']) || isset($_GET['search'])) {
 // ----------------------------------------------------------------------------
 // load function library for classic template
 // ----------------------------------------------------------------------------
-// include_once 'classic.php';
+include_once 'classic.php';
 
 // // ----------------------------------------------------------------------------
 // // load header
@@ -67,5 +71,3 @@ if (isset($_GET['p']) || isset($_GET['search'])) {
 // include 'partials/diatas_footer.php';
 // include 'partials/footer.php';
 ?>
-
-

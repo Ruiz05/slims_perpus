@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
-          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-          <style type="text/css">
+
+        <!--  <style type="text/css">
     .element {
         position: absolute;
         right: 200;
@@ -15,7 +14,7 @@
         width: 200px;
         border: 1px solid #000;
     }
-</style>
+</style>-->
           
 
 </head>
@@ -190,7 +189,7 @@ function showCalendar(month, year) {
 </script>
 
 
-<style type="text/css">
+<!-- <style type="text/css">
     .element {
         position: absolute;
         right: 200;
@@ -198,7 +197,7 @@ function showCalendar(month, year) {
         width: 200px;
         border: 1px solid #000;
     }
-</style>
+</style> -->
 
 </body>
 </html>
