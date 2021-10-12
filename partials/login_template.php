@@ -24,6 +24,7 @@ if (!defined('INDEX_AUTH')) {
     background-color: rgb(229, 229, 229);
   }
 </style>
+
 </head>
 
 <body itemscope="itemscope" itemtype="http://schema.org/WebPage">
@@ -31,6 +32,11 @@ if (!defined('INDEX_AUTH')) {
 <?php
 include 'nav.php';
 ?>
+<script>
+document.getElementById('newspage').onclick = function() {
+    document.getElementById("newspage").href = "index.php?p=news";
+}
+</script>
 <main id="content" class="s-main" role="main">
 <div class="login">
     <div class="container-fluid">
