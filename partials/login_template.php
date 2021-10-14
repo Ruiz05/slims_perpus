@@ -10,10 +10,13 @@ if (!defined('INDEX_AUTH')) {
       prefix="og: http://ogp.me/ns#">
 <head>
 <!-- meta -->
+
+</head>
+
 <style>
-  .heading1{
+   .heading1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size:1.2rem;
+    font-size: 25px;
     
   }
   .pig{
@@ -23,9 +26,12 @@ if (!defined('INDEX_AUTH')) {
   #content{
     background-color: rgb(229, 229, 229);
   }
-</style>
 
-</head>
+  .title{
+    padding-top: 10px; 
+    font-size: 20px; 
+  }
+</style>
 
 <body itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
@@ -37,22 +43,31 @@ document.getElementById('newspage').onclick = function() {
     document.getElementById("newspage").href = "index.php?p=news";
 }
 </script>
-<main id="content" class="s-main" role="main">
+<div id="content" class="">
+<br><br><br>
+
+
+<main class="s-main" role="main">
 <div class="login">
-    <div class="container-fluid">
-        <div class="row justify-content-center pig">
-          <div class="col-auto offset-1 bi-person-circle h1"></div>
-          <div class="col-6" style="padding-top: 10px;">LOGIN ADMIN
+    <div class="container">
+        <div class="row position-sticky" style="justify-content: center">
+          <div class="col-auto offset-1 bi-person-circle" style="font-size:50px"></div>
+          <div class="title col-6">LOGIN ADMIN
           <!-- <div class="col-auto offset-1"><img class="loginpage" src="template/slims_perpus/gambar/logo.png" style="width: 100px; height: auto; padding-top: 50%; padding-bottom: 50%;"></div>
           --><div class="col-6" style="padding-top: 10px;">
           <?php echo $main_content;?></div>
         </div>
     </div>
-</div>
+</div></div>
 </main>
 
 
 </body>
+
+<br><br><br>
+
+</div>
+
 <?php
 //include 'diatas_footer.php';
 include "footer.php";

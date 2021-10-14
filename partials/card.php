@@ -3,7 +3,7 @@
 <div class="container-fluid py-5" >
     <div class="container"> 
   <div class="row justify-content-center" >
-     <div class="col-lg-3 col-sm-6">
+     <div class="col-lg-3 col-md col-sm-6">
      <div class="card text-center">
     <div class="card-header h3">
        <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
@@ -17,7 +17,7 @@
   </div>
   </div>
 
-  <div class="col-lg-3 col-sm-6">
+  <div class="col-lg-3 col-md col-sm-6">
   <div class="card text-center">
     <div class="card-header h3">
        <a class= "card_menu" href="https://paperless.umkt.ac.id/"><?php echo "Digital Library" ?></a>
@@ -33,7 +33,7 @@
 
   
   
-  <div class="col-lg-3 col-sm-6">
+  <div class="col-lg-3 col-md col-sm-6">
   <div class="card text-center">
     <div class="card-header h3">
        <a class= "card_menu" href="index.php?search"><?php echo "OPAC" ?></a>
@@ -48,7 +48,7 @@
   </div>
 
   
-  <div class="col-lg-3 col-sm-6">
+  <div class="col-lg-3 col-md col-sm-6">
   <div class="card text-center">
     <div class="card-header h3">
        <a class= "card_menu" href="http://b.id/mobi/"><?php echo "Bookless" ?></a>

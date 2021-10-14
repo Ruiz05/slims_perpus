@@ -13,7 +13,7 @@
 //echo '<pre>'; print_r($_SESSION); echo '</pre>'; die();
 include 'partials/meta.php';
 
-
+include_once 'classic.php';
 // ----------------------------------------------------------------------------
 // load content by URI
 // ----------------------------------------------------------------------------
@@ -25,7 +25,7 @@ if (isset($_GET['p']) || isset($_GET['search'])) {
   if (isset($_GET['search'])) {
     // ------------------------------------------------------------------------
     // load partials result search template
-    include 'partials/search-frontpage.php';
+    include 'partials/result.php';
   
   } 
   
@@ -50,12 +50,13 @@ if (isset($_GET['p']) || isset($_GET['search'])) {
   // --------------------------------------------------------------------------
   // not found query string: load home page
   include 'partials/home.php';
+  
 }
 
 // ----------------------------------------------------------------------------
 // load function library for classic template
 // ----------------------------------------------------------------------------
-include_once 'classic.php';
+// include_once 'classic.php';
 
 // // ----------------------------------------------------------------------------
 // // load header

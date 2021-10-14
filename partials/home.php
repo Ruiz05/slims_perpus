@@ -20,6 +20,7 @@ if (!defined('INDEX_AUTH')) {
 include 'nav.php';
 include 'banner.php';
 include 'card.php';
+//include 'search-from.php'
 ?>
 <main id="content" class="s-main" role="main">
 </main>

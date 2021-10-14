@@ -43,4 +43,3 @@ document.getElementById('newspage').onclick = function() {
 
 <?php include "footer.php";?>
 </body>
-</html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,9 @@
 
 
         <!--  <style type="text/css">
+=======
+<style type="text/css">
+>>>>>>> main
     .element {
         position: absolute;
         right: 200;
