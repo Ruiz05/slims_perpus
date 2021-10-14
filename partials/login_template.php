@@ -53,8 +53,8 @@ document.getElementById('newspage').onclick = function() {
         <div class="row position-sticky" style="justify-content: center">
           <div class="col-auto offset-1 bi-person-circle" style="font-size:50px"></div>
           <div class="title col-6">LOGIN ADMIN
-          <!-- <div class="col-auto offset-1"><img class="loginpage" src="template/slims_perpus/gambar/logo.png" style="width: 100px; height: auto; padding-top: 50%; padding-bottom: 50%;"></div>
-          --><div class="col-6" style="padding-top: 10px;">
+          <!-- <div class="col-auto offset-1"><img class="loginpage" src="template/slims_perpus/gambar/logo.png" style="width: 100px; height: auto; padding-top: 50%; padding-bottom: 50%;"></div> -->
+          <div class="col-6" style="padding-top: 10px;">
           <?php echo $main_content;?></div>
         </div>
     </div>
