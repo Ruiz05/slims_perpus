@@ -169,3 +169,56 @@ font-size: 100%;
     font-size: 2rem;
     padding-left: 50px;
 }
+
+.tagline{
+    font-size: 50px;
+}
+
+/* Search */
+
+.search {
+    margin-top: -30px;
+    margin-bottom: 250px;
+}
+
+.search input {
+    padding-right: 35px;
+}
+
+.search .input-transparent {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16pt;
+}
+
+.search .input-transparent::placeholder {
+    font-weight: 200;
+    color: #ccc;
+}
+
+.search .card {
+    background-image: url('../images/icon/ios7-search.png');
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    background-size: 20px;
+    top: 250px;
+}
+.advanced-wraper {
+    background: #fff;
+    padding: 16px;
+    position: absolute;
+    top:400px;
+    left: 20px;
+    right: 200px;
+    border-radius: 4px;
+    z-index: 999;
+}
+
+#bebek:hover {
+    background-color:rgb(220, 220, 220);
+    color:#ffff
+}
+
+/* Halaman Search */
+

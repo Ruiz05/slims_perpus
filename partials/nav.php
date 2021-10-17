@@ -1,3 +1,10 @@
+<?php
+// clean request uri from xss
+$request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
+?>
+
+
+
 <nav class="navbar-expand-lg" style="background-color: #064e7a">
   <div class="container">
    
@@ -62,7 +69,7 @@
   </body>
           <!-- Edit Menu Navigation Bar-->
   <div class="container">
-  <nav class="navbar navbar-expand-lg navbar-dark " aria-labelledby="navbarDropdown" style="background-color: #064e7a">
+  <nav class="navbar navbar-expand-lg  navbar-dark " aria-labelledby="navbarDropdown" style="background-color: #064e7a">
   <div class="container-fluid">
     <a class="navbar-brand " ></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,7 +81,7 @@
           <a class=" nav" aria-current="page" href="index.php" ><?php echo "BERANDA" ?></a>
         </li>
         <li class="nav-item">
-          <a class=" nav" href="#news" id="newspage" ><?php echo " LIBRARY NEWS" ?></a>
+          <a class=" nav" href="index.php?p=news" id="newspage" ><?php echo " LIBRARY NEWS" ?></a>
         </li>
         <li class="nav-item dropdown ">
           <a class=" dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "AREA ANGGOTA" ?>
@@ -139,7 +146,7 @@
           
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
-            <li><a class="dropdown-item" href="index.php?p=librarianr" ><?php echo "Librarian" ?></a></li>
+            <li><a class="dropdown-item" href="index.php?p=librarian" ><?php echo "Librarian" ?></a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="index.php?p=profil"><?php echo "Profil" ?></a></li>
             <li><hr class="dropdown-divider"></li>
@@ -147,7 +154,7 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="index.php?p=layanan" ><?php echo "Layanan Perpustakaan" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="index.php?p=peta" class="openPopUp" width="600" height="400"><?php echo "Library Location" ?></a></li>
+            <li><a class="dropdown-item" href="https://goo.gl/maps/ZaKSgsuJH3WhZNFM7" class="openPopUp" width="600" height="400"><?php echo "Library Location" ?></a></li>
 
            
             
