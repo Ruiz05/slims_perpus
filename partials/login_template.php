@@ -5,13 +5,6 @@ if (!defined('INDEX_AUTH')) {
   die("can not access this file directly");
 }
 ?>
-<!DOCTYPE html>
-<html lang="<?php echo substr($sysconf['default_lang'], 0, 2); ?>" xmlns="http://www.w3.org/1999/xhtml"
-      prefix="og: http://ogp.me/ns#">
-<head>
-<!-- meta -->
-
-</head>
 
 <style>
    .heading1{
