@@ -89,10 +89,10 @@ function biblio_list_format($dbs, $biblio_detail, $n, $settings = array(), &$ret
     }
   }
 
-  $output .= '<div class="card item border-0 elevation-1 mb-6">';
+  $output .= '<div class="card">';
   $output .= '<div class="card-body">';
   $output .= '<div class="row">';
-  $output .= '<div class="col-12 col-md-2">';
+  $output .= '<div class="col">';
   $output .= '<img src="'.$thumb_url.'" alt="cover" class="img-fluid rounded" />';
   $output .= '</div>'; // -- close col-2
   $output .= '<div class="col-8">';
