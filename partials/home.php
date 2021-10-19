@@ -19,7 +19,7 @@ if (!defined('INDEX_AUTH')) {
 $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
 ?>
 
-
+<div class="sticky-top">
 
 <nav class="navbar-expand-lg" style="background-color: #064e7a">
   <div class="container">
@@ -30,7 +30,7 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
           <a class="bi-envelope hover" aria-current="page" style="padding-right:10px; text-decoration:none; color:white"> perpustakaan@umkt.ac.id</a>
         </li>
         <li class="nav-item">
-          <a class="bi-whatsapp hover" style="padding-left:10px; text-decoration:none; color:white"> 0822 531 79397</a>
+          <a class="bi-whatsapp hover"  href="https://wa.me/6282253179397" target="_blank " style="padding-left:10px; text-decoration:none; color:white"> 0822 531 79397</a>
         </li>
 
       </ul>
@@ -123,6 +123,10 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
         <ul class="dropdown-menu"   >
           <!-- Dropdown menu links -->
           <li><a class="dropdown-item"  href="#"  ><?php echo "Usul Buku" ?></a></li>
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
         </ul>
       </div>
 
@@ -151,6 +155,10 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
         </b>
         <ul class="dropdown-menu">
           <!-- Dropdown menu links -->
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
           <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
         </ul>
       </div>
@@ -188,6 +196,7 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
     </div>
   </div>
 </nav>
+</div>
 <?php
 include 'banner.php';
 include 'card.php';

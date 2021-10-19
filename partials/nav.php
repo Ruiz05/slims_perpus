@@ -3,7 +3,7 @@
 $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
 ?>
 
-
+<div class="sticky-top"> <!-- Untuk mengatur navbar agar tetap di atas, hanya perlu mengganti class -->
 
 <nav class="navbar-expand-lg" style="background-color: #064e7a">
   <div class="container">
@@ -14,7 +14,7 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
           <a class="bi-envelope hover" aria-current="page" style="padding-right:10px; text-decoration:none; color:white"> perpustakaan@umkt.ac.id</a>
         </li>
         <li class="nav-item">
-          <a class="bi-whatsapp hover" style="padding-left:10px; text-decoration:none; color:white"> 0822 531 79397</a>
+          <a class="bi-whatsapp hover" href="https://wa.me/6282253179397" target="_blank " style="padding-left:10px; text-decoration:none; color:white"> 0822 531 79397</a>
         </li>
 
       </ul>
@@ -50,11 +50,23 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
   <body>  
    <div class="container">
     <h1><img class="gambarheader" src="template/slims_perpus/gambar/heder.png"></h1>
-    <!--<form class="d-flex justify-content-end">
-        <input class="form-control me-2 justify-content-end" type="search" placeholder="Search" aria-label="Search" style="width:30%">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form> -->
-
+    <!-- <form>
+     
+        <div  class=" container">
+                    <div id="mencari" class="input-group mb-3">
+                        <input name="keywords" type="text" class="form-control"
+                               placeholder="<?= __('Enter Keywords'); ?>"
+                               aria-label="Enter Keywords"
+                               aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit" value="search" name="search"
+                                    id="button-addon2"><?= __('Find Collection'); ?>
+                            </button>
+                        </div>
+                    </div>
+        </div>
+      
+</form> -->
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -65,7 +77,7 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->
-    </div> </div>
+    <
   </body>
           <!-- Edit Menu Navigation Bar-->
   <div class="container">
@@ -125,19 +137,25 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="http://b.id/mobi/"><?php echo "E-Book" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-
+<!-- Menu kesamping-->
             <div class="dropdown-item dropend">
-        <!--<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
-          Dropright
-        </button>-->
+        
         <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><?php echo "kesamping" ?>
             
         </b>
         <ul class="dropdown-menu">
-          <!-- Dropdown menu links -->
+       
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
+          <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
           <li><a class="dropdown-item" href="#" ><?php echo "Usul Buku" ?></a></li>
         </ul>
+        
+       
+       
       </div>
+
+<!-- akhir menu kesamping-->
             
           </ul>
         </li>
@@ -154,7 +172,7 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="index.php?p=layanan" ><?php echo "Layanan Perpustakaan" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="https://goo.gl/maps/ZaKSgsuJH3WhZNFM7" class="openPopUp" width="600" height="400"><?php echo "Library Location" ?></a></li>
+            <li><a class="dropdown-item" href="https://goo.gl/maps/ZaKSgsuJH3WhZNFM7" target="_blank" class="openPopUp" width="600" height="400"><?php echo "Library Location" ?></a></li>
 
            
             
@@ -172,3 +190,6 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
     </div>
   </div>
 </nav>
+
+
+</div>

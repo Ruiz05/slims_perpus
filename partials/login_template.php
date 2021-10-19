@@ -20,9 +20,7 @@ if (!defined('INDEX_AUTH')) {
     background-color: rgb(229, 229, 229);
   }
 
-  .title{
-    padding-top: 10px; 
-    font-size: 20px; 
+  
   }
 </style>
 
@@ -31,11 +29,7 @@ if (!defined('INDEX_AUTH')) {
 <?php
 include 'nav.php';
 ?>
-<script>
-document.getElementById('newspage').onclick = function() {
-    document.getElementById("newspage").href = "index.php?p=news";
-}
-</script>
+
 <div id="content" class="">
 <br><br><br>
 
