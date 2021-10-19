@@ -1,4 +1,4 @@
-<footer>
+<footer class="sticky-bottom">
 <div class="container-fluid text-white w-1 p-4" style="background-color: #042351;">
   <div class="row">
   <div id="logo-footer" class="col-auto justify-content-center" style="padding-left: 50px; padding-right: 50px;">
