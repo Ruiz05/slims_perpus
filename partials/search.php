@@ -1,3 +1,7 @@
+<?php include 'nav.php'; ?>
+<div class="container rounded search-form" style="padding: 35px 50px 10px; font-family: monospace;" >
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quasi esse ab alias officiis, distinctio neque tempore ex quae perspiciatis nulla totam et quisquam. Corporis facilis asperiores molestias quibusdam laborum.</p>
+</div>
 <div class="container-fluid">
 <form>
         <div class="search container">
@@ -15,7 +19,8 @@
 </form>
 <section>
 <form action="index.php" method="get">
-<div class="container" style="padding: 35px 70px 50px;" >
+<div class="container rounded search-form" style="padding: 35px 50px 10px; background-color:#E0E0E0;" >
+    <div class="row-fluid rounded bg-primary" style="font-family: monospace;text-align: center;font-size: 1.2rem;padding: 5px 10px;font-weight: bold;color:white;">Advanced Search</div>
       <div class="row">
         <div class="col">
         <label for="adv-titles">Title</label>
@@ -88,3 +93,5 @@
         </div>
 </form>
 </div>
+
+<?php include 'footer.php'; ?>

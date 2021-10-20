@@ -48,8 +48,27 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
   <div style="background-color:#042351">
   <div class="container">
   <body>  
-   <div class="container">
-    <h1><img class="gambarheader" src="template/slims_perpus/gambar/heder.png"></h1>
+   <div class="container-fluid">
+     <div class="row" style="padding-top:10px;">
+     <div class="col-md-10 col-sm-12"><img class="gambarheader" src="template/slims_perpus/gambar/heder.png"></div>
+     <div class="col-md-2 col-sm-12">
+     <form style="padding-top:20%;">
+                    <div class="input-group mb-3">
+                        <input name="keywords" type="text" class="form-control"
+                               placeholder="<?= __('Pencarian'); ?>"
+                               aria-label="Enter Keywords"
+                               aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                            <button class="btn btn-primary" type="submit" value="search" name="search"
+                                    id="button-addon2"><i class="fas fa-search"></i>
+                            </button>
+                        </div>
+</form>
+     </div>
+     </div>
+     
+    
+    
     <!-- <form>
      
         <div  class=" container">

@@ -61,7 +61,6 @@
 </div>
 <br>
 <div>
-  Selengkapnya
    <!-- <p>
     <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=3555ea41641b9b6a06ed0eeaf1949a23de57c7ee'></script>
     <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/871555/t/6"></script>

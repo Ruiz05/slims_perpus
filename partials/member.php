@@ -24,17 +24,12 @@
 <?php
 include 'nav.php';
 ?>
-<script>
-document.getElementById('newspage').onclick = function() {
-    document.getElementById("newspage").href = "index.php?p=news";
-}
-</script>
 <main id="content" class="s-main" role="main">
 <div class="login">
     <div class="container-fluid">
         <div class="row justify-content-center pig">
-         
           <div class="col-6" style="padding-top: 10px;">
+          <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate eius optio facere architecto dolore, magnam eos unde quae natus, accusantium dolorem. Porro inventore maxime expedita facilis placeat magni repellat itaque?</h5>
           <?php echo $main_content;?></div>
         </div>
     </div>

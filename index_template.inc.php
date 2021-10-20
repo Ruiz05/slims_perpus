@@ -19,12 +19,16 @@ include_once 'classic.php';
 // ----------------------------------------------------------------------------
 if (isset($_GET['p']) || isset($_GET['search']) || isset($_GET['keywords'])) {
   // --------------------------------------------------------------------------
+  // if(isset($_GET['search']) != $_GET['keywords']){
+  //   include 'partials/search.php';
+  // }
   // handle result search
-  if (isset($_GET['search'])) {
+  if (isset($_GET['search']) && isset($_GET['keywords'])) {
     // ------------------------------------------------------------------------
     // load partials result search template
     include 'partials/result.php';
   }
+  
   else {
     // --------------------------------------------------------------------------
     // handle member page
@@ -42,7 +46,11 @@ if (isset($_GET['p']) || isset($_GET['search']) || isset($_GET['keywords'])) {
     //   //echo "hello world";
     // }
   }
-} else {
+} elseif (isset($_GET['pencarian'])) {
+  # code...
+  include 'partials/search.php';
+}
+else {
   // --------------------------------------------------------------------------
   // not found query string: load home page
   include 'partials/home.php';

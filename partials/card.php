@@ -34,12 +34,12 @@
   <div class="col-lg-3 col-md col-sm-6">
   <div id="kartu" class="card text-center">
     <div id="kartu1" class="card-header h3">
-       <a class= "card_menu" href="index.php?search"><?php echo "OPAC" ?></a>
+       <a class= "card_menu" href="index.php?pencarian"><?php echo "OPAC" ?></a>
     </div>
     <div  class="card-body"><br>
       <p class="card-text">Catalog Online / Integrated Library Application in The Scope of The University of Muhammadiyah Kalimantan Timur</p><br>
       <i class="bi-search h1"></i><br><br>
-      <a class="button" href="index.php?search">GO</a>
+      <a class="button" href="index.php?pencarian">GO</a>
     </div>
   </div>
   </div>

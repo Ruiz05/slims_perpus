@@ -6,7 +6,7 @@ if (!defined('INDEX_AUTH')) {
 }
 ?>
 
-<style>
+<!-- <style>
    .heading1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
@@ -22,7 +22,7 @@ if (!defined('INDEX_AUTH')) {
 
   
   }
-</style>
+</style> -->
 
 <body itemscope="itemscope" itemtype="http://schema.org/WebPage">
 

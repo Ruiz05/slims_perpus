@@ -3,7 +3,7 @@
       prefix="og: http://ogp.me/ns#">
 <head>
 <!-- meta -->
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 
 <title><?php echo $page_title; ?></title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.css">
