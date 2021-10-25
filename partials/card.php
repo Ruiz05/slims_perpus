@@ -3,7 +3,7 @@
 <div class="container-fluid py-5" >
     <div class="container"> 
   <div class="row justify-content-center" >
-     <div class="col-lg-3 col-md col-sm-6">
+     <div class="col-lg-3 col-md-6 col-sm-12">
      <div id="kartu" class="card text-center">
     <div class="card-header h3">
        <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
@@ -16,7 +16,7 @@
   </div>
   </div>
 
-  <div  class="col-lg-3 col-md col-sm-6">
+  <div  class="col-lg-3 col-md-6 col-sm-12">
   <div id="kartu" class="card text-center">
     <div id="kartu1" class="card-header h3">
        <a class= "card_menu" href="https://paperless.umkt.ac.id/"><?php echo "Digital Library" ?></a>
@@ -31,7 +31,7 @@
 
   
   
-  <div class="col-lg-3 col-md col-sm-6">
+  <div class="col-lg-3 col-md-6 col-sm-12">
   <div id="kartu" class="card text-center">
     <div id="kartu1" class="card-header h3">
        <a class= "card_menu" href="index.php?pencarian"><?php echo "OPAC" ?></a>
@@ -45,13 +45,13 @@
   </div>
 
   
-  <div class="col-lg-3 col-md col-sm-6">
+  <div class="col-lg-3 col-md-6 col-sm-12">
   <div id="kartu" class="card text-center">
     <div id="kartu1" class="card-header h3">
        <a  class= "card_menu" href="http://b.id/mobi/"><?php echo "Bookless" ?></a>
     </div>
-    <div  class="card-body">
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <div  class="card-body"><br>
+      <p class="card-text">Digital Collections in The Form of E-book and E-journals, Proceedings as Well as Video and Audio Books.</p><br><br>
       <i class="bi-collection h1"></i><br><br>
       <a class="button" href="http://b.id/mobi/">GO</a>
     </div>

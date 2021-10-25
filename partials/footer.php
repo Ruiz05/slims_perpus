@@ -15,12 +15,12 @@
   <div class="row" style="font-size: 15px">
     <div class="col-5 text-lowercase">whatsapp
     </div>
-    <div class="col-sm">: 0822 531 79397</div>
+    <div class="col-sm"><a href="https://wa.me/628115193113" target="_blank" style="text-decoration: none; color: white">: 0811 5193 113</a></div>
 </div>
 <div class="row" style="font-size: 15px">
   <div class="col-5 text-lowercase">Email
   </div>
-  <div id="bawah" class="col-sm text-lowercase" style="margin:none">:<a href="perpustakaan@umkt.ac.id"> perpustakaan@umkt.ac.id</a></div>
+  <div id="bawah" class="col-sm text-lowercase" style="margin:none">:<a href="mailto:perpustakaan@umkt.ac.id"> perpustakaan@umkt.ac.id</a></div>
 </div>
   </div>
   <div class="col-sm judul_footer text-uppercase">
@@ -35,9 +35,9 @@
     </div>
     
     <div class="col-auto text-capitalize" style="font-size: 25px">
-      <a href="#"><i class="bi-facebook"></i></a>
+      <a href="https://m.facebook.com/perpustakaanUMKT/" target="_blank"><i class="bi-facebook"></i></a>
       <a href="#"><i class="bi-twitter"></i></a>
-      <a href="#"><i class="bi-instagram"></i></a>
+      <a href="https://www.instagram.com/perpustakaan_umkt/" target="_blank"><i class="bi-instagram"></i></a>
       <a href="https://www.youtube.com/channel/UCuMdgG31inHlwGCAxeaICOg" target="_blank"><i class="bi-youtube"></i></a>
     </div>
   </div>

@@ -7,14 +7,14 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
 
 <nav class="navbar-expand-lg" style="background-color: #064e7a">
   <div class="container">
-   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
       <ul class="navbar-nav me-auto mb-1 mb-lg-0">
         <li class="nav-item">
-          <a class="bi-envelope hover" aria-current="page" style="padding-right:10px; text-decoration:none; color:white"> perpustakaan@umkt.ac.id</a>
+          <a class="bi-envelope hover" aria-current="page" style="padding-right:10px; text-decoration:none; color:white" href="mailto:perpustakaan@umkt.ac.id"> perpustakaan@umkt.ac.id</a>
         </li>
         <li class="nav-item">
-          <a class="bi-whatsapp hover" href="https://wa.me/6282253179397" target="_blank " style="padding-left:10px; text-decoration:none; color:white"> 0822 531 79397</a>
+          <a class="bi-whatsapp hover" href="https://wa.me/6282253179397" target="_blank" style="padding-left:10px; text-decoration:none; color:white"> 0811 5193 113</a> <!-- Buat ganti nomor WA -->
         </li>
 
       </ul>
@@ -99,7 +99,7 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
     <
   </body>
           <!-- Edit Menu Navigation Bar-->
-  <div class="container">
+ <div class="container">
   <nav class="navbar navbar-expand-lg  navbar-dark " aria-labelledby="navbarDropdown" style="background-color: #064e7a">
   <div class="container-fluid">
     <a class="navbar-brand " ></a>
@@ -111,10 +111,41 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
         <li class="nav-item ">
           <a class=" nav" aria-current="page" href="index.php" ><?php echo "BERANDA" ?></a>
         </li>
-        <li class="nav-item">
-          <a class=" nav" href="index.php?p=news" id="newspage" ><?php echo " LIBRARY NEWS" ?></a>
-        </li>
+        
         <li class="nav-item dropdown ">
+          <a class=" dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "NEWS" ?>
+            
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"   >
+            <li><a  class="dropdown-item " href="index.php?p=news" ><?php echo "Library News" ?></a></li>
+            <li><hr class="dropdown-divider"></li>
+     
+
+                  <div class="dropdown-item dropend"  >
+        <!--<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+          Dropright
+        </button>-->
+        <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "Koran" ?>
+            
+        </b>
+        <ul class="dropdown-menu"   >
+          <!-- Dropdown menu links -->
+          <li><a class="dropdown-item"  href="https://samarinda.prokal.co/" target="_blank"><?php echo "Samarinda Post" ?></a></li>
+            <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item"  href="https://korankaltim.com/" target="_blank"><?php echo "Koran Kaltim" ?></a></li>
+            <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item"  href="https://kaltim.tribunnews.com/" target="_blank"><?php echo "Tribun Kaltim" ?></a></li>
+        </ul>
+        
+
+        
+      </div>
+
+
+          <!-- Sub Menu (Menu yang Punya Anakan) -->
+          </ul>
+        </li>
+        <li class="nav-item dropdown  ">
           <a class=" dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "AREA ANGGOTA" ?>
             
           </a>
@@ -139,11 +170,12 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
           <!-- Dropdown menu links -->
           <li><a class="dropdown-item"  href="#"  ><?php echo "Usul Buku" ?></a></li>
         </ul>
+
+        
       </div>
 
 
-          <!-- Sub Menu (Menu yang Punya Anakan) -->
-          </ul>
+      </ul>
         </li>
         <li class="nav-item dropdown  ">
           <a class=" dropdown-toggle nav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "KATALOG" ?>
