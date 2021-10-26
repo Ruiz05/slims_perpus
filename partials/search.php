@@ -1,6 +1,9 @@
 <?php include 'nav.php'; ?>
 <div class="container rounded search-form" style="padding: 35px 50px 10px; font-family: monospace;" >
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum quasi esse ab alias officiis, distinctio neque tempore ex quae perspiciatis nulla totam et quisquam. Corporis facilis asperiores molestias quibusdam laborum.</p>
+<div style="text-align:center">
+<h1>OPAC</h1>
+<h4>Online Public Access Catalog</h4>
+</div>
 </div>
 <div class="container-fluid">
 <form>

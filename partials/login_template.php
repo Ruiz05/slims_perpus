@@ -6,24 +6,6 @@ if (!defined('INDEX_AUTH')) {
 }
 ?>
 
-<!-- <style>
-   .heading1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-    
-  }
-  .pig{
-    padding:25px 50px 50px;
-    
-  }
-  #content{
-    background-color: rgb(229, 229, 229);
-  }
-
-  
-  }
-</style> -->
-
 <body itemscope="itemscope" itemtype="http://schema.org/WebPage">
 
 <?php
@@ -31,18 +13,23 @@ include 'nav.php';
 ?>
 
 <div id="content" class="">
-<br><br><br>
+<script>
+function getfocus() {
+  document.getElementById("userName").focus();
+}
+</script>
 
 
 <main class="s-main" role="main">
 <div class="login">
     <div class="container">
-        <div class="row position-sticky" style="justify-content: center">
+        <div class="row position-sticky" style="padding-top:15%;padding-bottom:15%;margin-left: auto; margin-right: auto;width: 40%;">
           <div class="col-auto offset-1 bi-person-circle" style="font-size:50px"></div>
-          <div class="title col-6">LOGIN ADMIN
+          <div class="title col">LOGIN ADMIN
           <!-- <div class="col-auto offset-1"><img class="loginpage" src="template/slims_perpus/gambar/logo.png" style="width: 100px; height: auto; padding-top: 50%; padding-bottom: 50%;"></div> -->
-          <div class="col-6" style="padding-top: 10px;">
-          <?php echo $main_content;?></div>
+          <div class="col">
+          <?php echo $main_content;?>
+        </div>
         </div>
     </div>
 </div></div>
@@ -51,7 +38,7 @@ include 'nav.php';
 
 </body>
 
-<br><br><br>
+
 
 </div>
 

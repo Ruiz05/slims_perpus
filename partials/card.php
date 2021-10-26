@@ -3,9 +3,9 @@
 <div class="container-fluid py-5" >
     <div class="container"> 
   <div class="row justify-content-center" >
-     <div class="col-lg-3 col-md-6 col-sm-12">
+     <div  class="col-lg-3 col-md-6 col-sm-12">
      <div id="kartu" class="card text-center">
-    <div class="card-header h3">
+    <div id="kartu1" class="card-header h3">
        <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
     </div>
     <div class="card-body">
@@ -22,7 +22,7 @@
        <a class= "card_menu" href="https://paperless.umkt.ac.id/"><?php echo "Digital Library" ?></a>
     </div>
     <div class="card-body"><br>
-      <p class="card-text">Digital Library a collection of dissertations, theses, essay, research results, journal articles and electronic book.</p> <br>
+      <p class="card-text">Digital Library a collection of dissertations, theses, essay, research results, journal articles and electronic book.</p><br>
       <i class="bi-book h1"></i><br><br>
       <a class="button" href="https://paperless.umkt.ac.id/">GO</a>
     </div>

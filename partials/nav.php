@@ -14,11 +14,11 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
           <a class="bi-envelope hover" aria-current="page" style="padding-right:10px; text-decoration:none; color:white" href="mailto:perpustakaan@umkt.ac.id"> perpustakaan@umkt.ac.id</a>
         </li>
         <li class="nav-item">
-          <a class="bi-whatsapp hover" href="https://wa.me/6282253179397" target="_blank" style="padding-left:10px; text-decoration:none; color:white"> 0811 5193 113</a> <!-- Buat ganti nomor WA -->
+          <a class="bi-whatsapp hover" href="https://wa.me/628115193113" target="_blank" style="padding-left:10px; text-decoration:none; color:white"> 0811 5193 113</a> <!-- Buat ganti nomor WA -->
         </li>
 
       </ul>
-      <div class="col-lg-3 col-md-3 col-sm-12">
+    
 				<div class="s-menu-info">
 					<form class="language" name="langSelect" action="index.php" method="get">
 						<label class="language-info" for="select_lang"><?php echo __('Select Language'); ?></label>
@@ -30,7 +30,7 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
 					</form>
 				</div>
 			</div>
-      </div>
+      
     
   </div>
   
@@ -152,27 +152,27 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown"   >
             <li><a  class="dropdown-item " href="index.php?p=member" ><?php echo "Login Member" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li ><a class="dropdown-item"  href="index.php?p=daftar_online"><?php echo "Registrasi Member" ?></a></li>
-            <li><hr class="dropdown-divider"></li>
+            <!-- <li ><a class="dropdown-item"  href="index.php?p=daftar_online"><?php echo "Registrasi Member" ?></a></li>
+            <li><hr class="dropdown-divider"></li> -->
             <li><a class="dropdown-item" href="index.php?p=survei" ><?php echo "Survei" ?></a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="index.php?p=usul_buku" ><?php echo "Usul Buku" ?></a></li>
-            <li><hr class="dropdown-divider"></li>
+            <!-- <li><hr class="dropdown-divider"></li>
 
-                  <div class="dropdown-item dropend"  >
-        <!--<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
-          Dropright
-        </button>-->
-        <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "kesamping" ?>
+                  <div class="dropdown-item dropend"  > -->
+        
+        <!-- <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "kesamping" ?> -->
             
-        </b>
-        <ul class="dropdown-menu"   >
+        <!-- </b>
+        <ul class="dropdown-menu"   > -->
+          
           <!-- Dropdown menu links -->
-          <li><a class="dropdown-item"  href="#"  ><?php echo "Usul Buku" ?></a></li>
+
+          <!-- <li><a class="dropdown-item"  href="#"  ><?php echo "Usul Buku" ?></a></li>
         </ul>
 
         
-      </div>
+      </div> -->
 
 
       </ul>
@@ -187,9 +187,9 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
             <li><a class="dropdown-item" href="https://dspace.umkt.ac.id/" ><?php echo "Repository" ?></a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="http://b.id/mobi/"><?php echo "E-Book" ?></a></li>
-            <li><hr class="dropdown-divider"></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
 <!-- Menu kesamping-->
-            <div class="dropdown-item dropend">
+            <!-- <div class="dropdown-item dropend">
         
         <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><?php echo "kesamping" ?>
             
@@ -204,7 +204,7 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
         
        
        
-      </div>
+      </div> -->
 
 <!-- akhir menu kesamping-->
             
@@ -218,6 +218,8 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
             <li><a class="dropdown-item" href="index.php?p=librarian" ><?php echo "Librarian" ?></a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="index.php?p=profil"><?php echo "Profil" ?></a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="index.php?p=visimisi"><?php echo "Visi Misi" ?></a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="index.php?p=fasilitas"><?php echo "Fasilitas Perpustakaan" ?></a></li>
             <li><hr class="dropdown-divider"></li>

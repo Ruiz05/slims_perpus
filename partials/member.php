@@ -28,8 +28,7 @@ include 'nav.php';
 <div class="login">
     <div class="container-fluid">
         <div class="row justify-content-center pig">
-          <div class="col-6" style="padding-top: 10px;">
-          <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate eius optio facere architecto dolore, magnam eos unde quae natus, accusantium dolorem. Porro inventore maxime expedita facilis placeat magni repellat itaque?</h5>
+          <div class="col-6 justify-content-center" style="padding-top: 10px;">
           <?php echo $main_content;?></div>
         </div>
     </div>
