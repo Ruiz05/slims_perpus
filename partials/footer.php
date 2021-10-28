@@ -45,20 +45,26 @@
     jam pelayanan
     <p></p>
     <div class="row" style="font-size: 15px">
-      <div class="col-5 text-capitalize">Senin-Sabtu
+      <div class="col-5 text-capitalize">Senin-Jumat
       </div>
       <div class="col-sm">08.00 - 21.00 WIB</div>
   </div>
   <div class="row" style="font-size: 15px">
     <div class="col-5 text-lowercase">
     </div>
-    <div class="col-sm text-capitalize">11.30 - 12.30 Shalat / Istirahat</div>
+    <div class="col-sm text-capitalize">12.00 - 13.00 Shalat / Istirahat</div>
 </div>
 <div class="row" style="font-size: 15px">
   <div class="col-5 text-lowercase">
   </div>
-  <div class="col-sm text-lowercase">11.00 - 13.00 Shalat / Istirahat khusus Hari Jum'at</div>
+  <div class="col-sm text-capitalize">11.00 - 13.00 Shalat / Istirahat khusus Hari Jum'at</div>
 </div>
+<br>
+<div class="row" style="font-size: 15px">
+      <div class="col-5 text-capitalize">Sabtu<br>(Jika pemustaka ingin berkunjung ke perpustakaan dengan koordinasi dengan pustakawan)
+      </div>
+      <div class="col-sm">09.00 - 16.00 WIB</div>
+  </div>
 <br>
 <div>
    <!-- <p>

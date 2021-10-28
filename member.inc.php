@@ -676,6 +676,7 @@ if ($is_member_login) :
     </script>
 <?php else : ?>
     <h5 class="bg-primary text-white rounded" style="text-align:center;font-family: monospace;">Login menggunakan akun SSO</h5>
+    <h5>Masuk menggunakan akun yang terdaftar di <a href="sso.umkt.ac.id">sso.umkt.ac.id</a></h5>
 <section>
 
   <div class="container py-5">
@@ -684,8 +685,8 @@ if ($is_member_login) :
         <form method="POST">
           <!-- Email input -->
           <div class="form-outline mb-4">
-            <label class="form-label" for="form1Example13">Nim</label>
-            <input id="userName" name="nim" type="text" class="form-control form-control-lg" placeholder="<?= __('Masukkan Nim'); ?>"/>
+            <label class="form-label" for="form1Example13">NIM</label>
+            <input id="userName" name="nim" type="text" class="form-control form-control-lg" placeholder="<?= __('Masukkan NIM'); ?>"/>
             
           </div>
 

@@ -30,7 +30,7 @@ if (!defined('INDEX_AUTH')) {
 $gambit = '<div class="container py-5">
 <div class="row mb-4">
   <div class="col-lg-5">
-    <h2 class="display-4 font-weight-light">Pustawakawan</h2>
+    <h2 class="display-4 font-weight-light">Pustakawan</h2>
     <p class="font-italic text-muted">Profil Pustakawan Universitas Muhammadiyah Kalimantan Timur</p>
   </div>
 </div>';
