@@ -676,7 +676,7 @@ if ($is_member_login) :
     </script>
 <?php else : ?>
     <h5 class="bg-primary text-white rounded" style="text-align:center;font-family: monospace;">Login menggunakan akun SSO</h5>
-    <h5>Masuk menggunakan akun yang terdaftar di <a href="sso.umkt.ac.id">sso.umkt.ac.id</a></h5>
+    <h5 style="text-align:center">Masuk menggunakan akun yang terdaftar di <a href="https://sso.umkt.ac.id/login/?next=/direktori/" target="_blank">sso.umkt.ac.id</a></h5>
 <section>
 
   <div class="container py-5">
