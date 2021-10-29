@@ -6,12 +6,12 @@
      <div  class="col-lg-3 col-md-6 col-sm-12">
      <div id="kartu" class="card text-center">
     <div id="kartu1" class="card-header h3">
-       <a class= "card_menu" href="https://dspace.umkt.ac.id/"><?php echo "Repository" ?></a>
+       <a class= "card_menu" href="https://dspace.umkt.ac.id/" target="_blank"><?php echo "Repository" ?></a>
     </div>
     <div class="card-body">
       <p class="card-text">Muhammadiyah University of East Kalimantan Repository collects, disseminates, and provides collections from students, staff and lecturers at the Muhammadiyah University of East Kalimantan</p>
       <i class="bi-laptop h1"></i><br><br>
-      <a class="button" href="https://dspace.umkt.ac.id/ ">GO</a>
+      <a class="button" href="https://dspace.umkt.ac.id/ "target="_blank">GO</a>
     </div>
   </div>
   </div>
