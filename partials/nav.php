@@ -119,13 +119,13 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown"   >
             <li><a  class="dropdown-item " href="index.php?p=news" ><?php echo "Library News" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-     
+     <!-- Menu kesamping-->
 
                   <div class="dropdown-item dropend"  >
         <!--<button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
           Dropright
         </button>-->
-        <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "Koran" ?>
+        <b id="samping" class="fw-normal dropdown-toggle" href="#" id="navbarDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "Koran" ?>
             
         </b>
         <ul class="dropdown-menu"   >
@@ -157,11 +157,12 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
             <li><a class="dropdown-item" href="index.php?p=survei" ><?php echo "Survei" ?></a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="index.php?p=usul_buku" ><?php echo "Usul Buku" ?></a></li>
-            <!-- <li><hr class="dropdown-divider"></li>
+            <!-- <li><hr class="dropdown-divider"></li> -->
+            <!-- Menu kesamping-->
 
-                  <div class="dropdown-item dropend"  > -->
+                  <div class="dropdown-item dropend"  >
         
-        <!-- <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "kesamping" ?> -->
+        <!-- <b id="samping" class="fw-normal dropdown-toggle" href="#" id="navbarDropdown"role="button" data-bs-toggle="dropdown" aria-expanded="false" ><?php echo "kesamping" ?> -->
             
         <!-- </b>
         <ul class="dropdown-menu"   > -->
@@ -182,16 +183,16 @@ $request_uri = urlencode(strip_tags(urldecode($_SERVER['REQUEST_URI'])));
             
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
-            <li><a id="fc" class="dropdown-item" href="https://paperless.umkt.ac.id/" ><?php echo "Paperless" ?></a></li>
+            <li><a id="fc" class="dropdown-item" href="https://paperless.umkt.ac.id/"  target="_blank"><?php echo "Paperless" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="https://dspace.umkt.ac.id/" ><?php echo "Repository" ?></a></li>
+            <li><a class="dropdown-item" href="https://dspace.umkt.ac.id/"  target="_blank"><?php echo "Repository" ?></a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="http://b.id/mobi/"><?php echo "E-Book" ?></a></li>
+            <li><a class="dropdown-item" href="http://b.id/mobi/" target="_blank"><?php echo "E-Book" ?></a></li>
             <!-- <li><hr class="dropdown-divider"></li> -->
 <!-- Menu kesamping-->
             <!-- <div class="dropdown-item dropend">
         
-        <b class="fw-normal dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><?php echo "kesamping" ?>
+        <b id="samping" class="fw-normal dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><?php echo "kesamping" ?>
             
         </b>
         <ul class="dropdown-menu">

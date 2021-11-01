@@ -103,10 +103,10 @@ a i{
 }
 
          
-b:hover{
+#samping:hover{
     color:black; 
 }
-b{
+#samping{
     display: block;
     text-align:left;
     color:white;}
